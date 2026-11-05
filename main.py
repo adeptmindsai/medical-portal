@@ -20,7 +20,7 @@ ASSEMBLYAI_API_KEY = "06e1f4b59d1a465aab5c97192d4941f9"
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://https://medical-portal-frontend-p21x.onrender.com/",
+        "https://https://medical-portal-frontend-p21x.onrender.com",
         "http://localhost:5173"
     ],
     allow_credentials=True,
